@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.navbar{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#6e072d;
+	color:white;
+}
+.navbar ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	display:flex;
+}
+.nav-left, .nav-right{
+	margin:0;
+}
+.navbar li{
+	font-size: 18px;
+	padding:18px 27px;
+	border-right:2px solid white;
+	cursor:pointer;
+}
+.nav-left li:last-child{
+	border-right:none;
+}
+.nav-right li:first-child{
+	border-left:none;
+}
+.navbar li:hover{
+	background-color: #b90e4d;
+}
